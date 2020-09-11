@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './styles/index.scss';
+import StarMatch from './components/StarMatch';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StarMatch />
   </React.StrictMode>,
   document.getElementById('root')
 );
