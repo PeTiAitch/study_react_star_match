@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import StarsDisplay from './StarsDisplay';
 import PlayNumber from './PlayNumber';
-import PlayAgain from './playAgain';
+import PlayAgain from './PlayAgain';
 import {utils} from '../math-utils';
 
 const useGameState = timeLimit => {
